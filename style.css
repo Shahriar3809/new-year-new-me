@@ -58,3 +58,52 @@ header {
     background: #FFF;
     border-radius: 5px;
 }
+
+
+
+
+/* main section 1 */
+
+.failure-sec {
+    
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    width: 80%;
+    margin-top: 100px;
+}
+
+.picture-area {
+
+    width: 50%;
+    text-align: center;
+}
+.failure-text-area {
+    
+    width: 40%;
+    padding-top: 200px;
+    padding-left: 80px;
+}
+
+.failure-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    width: 300px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.ul-area ul {
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.failure-des {
+    width: 400px;
+}
+
+.ul-area li {
+    list-style-type: '✔️';
+}
