@@ -6,7 +6,7 @@
 /* header section style */
 
 header {
-    background: url('images/banner/banner3.png');
+    background: url('./images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -28,6 +28,7 @@ header {
     font-size: 65px;
     font-style: normal;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .header-description {
@@ -90,7 +91,7 @@ header {
     font-size: 40px;
     font-weight: 700;
     width: 300px;
-    line-height: 50px;
+    line-height: 60px;
     margin-bottom: 30px;
 }
 
@@ -101,8 +102,20 @@ header {
 
 .failure-des {
     width: 400px;
+    color: #444343;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
 }
 
 .ul-area li {
     list-style-type: '✔️';
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
 }
