@@ -174,7 +174,6 @@ header {
   margin: auto;
   margin-top: 130px;
   margin-bottom: 100px;
-
 }
 
 .mindset-section h2 {
@@ -198,18 +197,109 @@ header {
   line-height: normal;
   text-decoration: none;
   padding: 20px 35px;
-  
 }
 
 .mindset-section button {
-    margin-top: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    border: none;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
 }
 
-
-
 .mindset-content {
-    padding: 70px;
+  padding: 70px;
+}
+
+.future-heading {
+  color: #f8f8f8;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #151414;
+  padding: 170px 170px 100px 170px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.future-part {
+  width: 500px;
+}
+
+.future-paragraph {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 15px;
+  line-height: 26px; /* 162.5% */
+}
+
+.emailpart {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 15px;
+  line-height: 26px; /* 162.5% */
+}
+
+.phonepart {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 15px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.icon-link {
+  display: flex;
+  gap: 20px;
+  margin-top: 35px;
+}
+
+.subscriber-part h2, input {
+  display: block;
+  padding-top: 10px;
+}
+
+.subscriber-heading {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.email-input {
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  padding: 20px;
+  width: 325px;
+  color: #fff;
+  background-color: #151414;
+  margin: 35px 0px;
+}
+
+.Subscribe-button {
+  padding: 20px 35px;
+  border-radius: 8px;
+  background: #005fac;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  color: #fff;
 }
